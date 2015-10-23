@@ -1,0 +1,6 @@
+@mixin percent-color($percent) {
+  color: hsl(0, 0, $percent );
+}
+@function percent-color($percent) {
+  @return hsl(0, 0, $percent );
+}
